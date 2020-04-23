@@ -3,7 +3,6 @@ package com.example.lambda;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.function.Predicate;
-import java.util.stream.Stream;
 
 public class IntermediaryAndFinal{
 
@@ -26,7 +25,7 @@ public class IntermediaryAndFinal{
                 .filter(p1.or(p2))
                 .forEach(list::add);
 
-        System.out.println("size list = " + list.size());
+        System.out.println("size list => " + list.size() + " instead of " + lista.size());
     }
 
 }
