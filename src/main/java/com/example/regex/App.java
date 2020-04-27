@@ -14,11 +14,10 @@ public class App {
     private static boolean compara_1(String s) {
         return s.matches("^[ ]{1}Hello!$");
     }
+
     private static boolean compara_2() {
         Pattern pattern = Pattern.compile("^[ ]{1}Hello!$");
         Matcher matcher = pattern.matcher(" Hello!");
         return matcher.matches();
     }
-
-
 }
