@@ -1,6 +1,6 @@
 package com.example.design_patterns.a_creational.factory.EXAMPLE_2.BLOG_RELATED;
 
-import com.example.design_patterns.a_creational.factory.Page;
+import com.example.design_patterns.a_creational.factory.EXAMPLE_2.Page;
 
 public class CommentPage extends Page {
 
